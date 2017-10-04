@@ -1,0 +1,16 @@
+CISC 275 Notes
+
+Iterator:
+Collection c = ...
+c.iterator() -> contains next() hasNext() and remove()
+They are replacing for loops because for loops can cause index+1 errors which is when you walk off the end of the list.
+How to add to an iterator: call the iterators add method. Ex: cIter.add(x)
+Collections:
+2 big subgroups- sets and lists(each has multiple implementations under it), lists are ordered, sets are not ordered.
+From exercise, for collection (problem 3 i think): Collection <Dog> pack = new ArrayList<Dog>(3);
+We want to write as general as possible so we can choose what kind of collection we or the user wants to use later
+Angled brackets specify the objects that the collection can hold. If the brackets are not there then you can have the collection hold any objects. Ex: Collection pack is the same thing as Collection<Object> pack.
+Every collection has a toString method because all Objects in java have toString methods whether or not we actually write them ourselves.
+Any object we make inherits everything from Object
+Everything in Java is Poymorphic. (polymorphism)
+Polymorphism - 
